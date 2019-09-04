@@ -10,10 +10,10 @@ build() {
     pip download "zeroc-ice==$ICE_VERSION"
     tar -zxf "zeroc-ice-$ICE_VERSION.tar.gz"
     cd "zeroc-ice-$ICE_VERSION"
-    python setup.py bdist_wheel bdist_rpm
+    python setup.py bdist_wheel
     cp dist/* /dist/
 }
 
-build py27
+# build py27
 export PATH=/opt/rh/rh-python36/root/usr/bin/:$PATH
 build py36
