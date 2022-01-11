@@ -4,8 +4,7 @@ set -eu
 
 ICE_VERSION="$1"
 VENV=/opt/omero
-echo "$PATH"
-python -V
+
 python -mvenv $VENV
 $VENV/bin/pip download "zeroc-ice==$ICE_VERSION"
 tar -zxf "zeroc-ice-$ICE_VERSION.tar.gz"
