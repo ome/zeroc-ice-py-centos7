@@ -3,7 +3,7 @@ Centos 7 Zeroc Ice Python 3 Builder
 
 [![Actions Status](https://github.com/ome/zeroc-ice-py-centos7/workflows/Build/badge.svg)](https://github.com/ome/zeroc-ice-py-centos7/actions)
 
-Builds Zeroc Ice wheel and RPM Python 3 packages for CentOS 7.
+Builds Zeroc Ice wheel for CentOS 7 using SCL Python 3.8.
 
 This can be used to create installable binary packages as an alternative to compiling from source using pip.
 
